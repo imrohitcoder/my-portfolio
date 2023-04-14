@@ -1,0 +1,51 @@
+.tags_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tags {
+  position: fixed;
+  bottom: 35px;
+  padding: 10px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: green; */
+  backdrop-filter: blur(15px);
+}
+
+.tags > div {
+  padding: 12px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: #e6d8d8;
+}
+.tags > div:hover {
+  border-radius: 50%;
+  background: rgb(24, 24, 71);
+}
+.home {
+  border-radius: 50%;
+  background: rgb(35, 35, 103);
+}
+.about {
+  border-radius: 50%;
+  background: rgb(35, 35, 103);
+}
+.mySkill {
+  border-radius: 50%;
+  background: rgb(35, 35, 103);
+}
+.projects {
+  border-radius: 50%;
+  background: rgb(35, 35, 103);
+}
+.contact {
+  border-radius: 50%;
+  background: rgb(35, 35, 103);
+}

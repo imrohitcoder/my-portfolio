@@ -1,0 +1,67 @@
+.mySkill_wrapper {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15vh;
+}
+.my_skill {
+  text-transform: capitalize;
+  color: #cdc7c7;
+}
+.my_skill > h4 {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.my_skill > h2 {
+  margin-top: 16px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(135, 206, 235);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.myskill_content {
+  background-color: rgb(35, 35, 103);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+.myskill_content:hover {
+  transition: 0.4s;
+  border-color: skyblue;
+  background-color: rgb(24, 24, 71);
+}
+.technical_skills {
+  width: 300px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.technical_skills > div {
+  display: flex;
+  justify-content: space-around;
+  color: #f6e6e6;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.technical_skills > div > h4 {
+  display: flex;
+}
+.technical_skills > div > h4 > i {
+  margin-right: 8px;
+  color: rgb(96, 176, 208);
+}
+.frontend > h3 {
+  margin-top: 12px;
+  margin-bottom: 16px;
+  color: rgb(23, 150, 200);
+}

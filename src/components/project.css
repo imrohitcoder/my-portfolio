@@ -1,0 +1,88 @@
+.project_wrapper {
+  width: 100%;
+}
+.project_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.project_sec > h4 {
+  color: #d1d1d1;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.project_sec > h2 {
+  color: skyblue;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.project_content {
+  width: 100%;
+}
+
+.project_content > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  display: flex;
+}
+.projects_item > img {
+  border-radius: 16px;
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.projects_item {
+  padding: 1.3rem;
+  background-color: rgb(35, 35, 103);
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+.projects_item:hover {
+  background-color: rgb(24, 24, 71);
+  border-color: skyblue;
+}
+.projects_item > h3 {
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 1.7rem;
+  color: rgb(216, 220, 225);
+}
+.btn_links > button {
+  padding: 14px 20px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.github {
+  background: rgb(24, 24, 71);
+  border: 1px solid skyblue;
+  transition: 0.4s;
+  border-radius: 12px;
+  color: skyblue;
+}
+.github:hover {
+  background-color: #fff;
+  transition: 0.4s;
+  color: #464343;
+}
+.url {
+  border: none;
+  color: #222121;
+  margin-left: 12px;
+  border-radius: 12px;
+}
+.url:hover {
+  background-color: skyblue;
+  border-radius: 12px;
+}
