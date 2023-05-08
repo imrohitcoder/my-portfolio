@@ -17,8 +17,20 @@ const Projects = () => {
             <img src={todo} alt="" />
             <h3>Todo List Neumorphic</h3>
             <div className="btn_links">
-              <button className="github">GitHub</button>
-              <button className="url">Live URL</button>
+              <a
+                href="https://github.com/imrohitcoder/to-do-list-neumorphic"
+                target="//"
+                className="github"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://papaya-halva-a8ac81.netlify.app"
+                target="/"
+                className="url"
+              >
+                Live URL
+              </a>
             </div>
           </div>
           <div className="projects_item">

@@ -57,19 +57,25 @@
   font-size: 1.7rem;
   color: rgb(216, 220, 225);
 }
-.btn_links > button {
+/* .btn_links > button {
   padding: 14px 20px;
   font-size: 14px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 0.5px;
   cursor: pointer;
-}
+} */
 .github {
   background: rgb(24, 24, 71);
   border: 1px solid skyblue;
   transition: 0.4s;
   border-radius: 12px;
   color: skyblue;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
 }
 .github:hover {
   background-color: #fff;
@@ -78,9 +84,16 @@
 }
 .url {
   border: none;
+  background-color: #fff;
   color: #222121;
   margin-left: 12px;
   border-radius: 12px;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
 }
 .url:hover {
   background-color: skyblue;
