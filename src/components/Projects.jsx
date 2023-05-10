@@ -37,16 +37,40 @@ const Projects = () => {
             <img src={netflix} alt="" />
             <h3>Netflix clone</h3>
             <div className="btn_links">
-              <button className="github">GitHub</button>
-              <button className="url">Live URL</button>
+              <a
+                href="https://github.com/imrohitcoder/netflix-clone"
+                target="//"
+                className="github"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://rad-arithmetic-2df9b0.netlify.app"
+                target="/"
+                className="url"
+              >
+                Live URL
+              </a>
             </div>
           </div>
           <div className="projects_item">
             <img src={storeApp} alt="" />
             <h3>Store App</h3>
             <div className="btn_links">
-              <button className="github">GitHub</button>
-              <button className="url">Live URL</button>
+              <a
+                href="https://github.com/imrohitcoder/e-store"
+                target="//"
+                className="github"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://scintillating-fudge-97ce86.netlify.app"
+                target="/"
+                className="url"
+              >
+                Live URL
+              </a>
             </div>
           </div>
 
