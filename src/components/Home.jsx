@@ -8,7 +8,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Link } from "react-scroll";
-
+import resume from "../../src/pdf/resume.pdf";
 const Home = () => {
   return (
     <div className="home_container" id="home">
@@ -19,7 +19,10 @@ const Home = () => {
           <h4>Frontend Developer</h4>
         </div>
         <div className="btnSection">
-          <button className="download">Download Resume</button>
+          {/* <button className="download">Download Resume</button> */}
+          <a href={resume} download="resume" className="download">
+            Download Resume
+          </a>
           <button className="contact_sec">
             <Link to="contact" smooth={true}>
               {" "}
