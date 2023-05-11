@@ -19,7 +19,6 @@ const Home = () => {
           <h4>Frontend Developer</h4>
         </div>
         <div className="btnSection">
-          {/* <button className="download">Download Resume</button> */}
           <a href={resume} download="resume" className="download">
             Download Resume
           </a>
