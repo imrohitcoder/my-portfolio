@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import { Link } from "react-scroll";
 import resume from "../../src/pdf/resume.pdf";
+import myImage from "./download.jpg";
 const Home = () => {
   return (
     <div className="home_container" id="home">
@@ -44,10 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className="image_sec">
-          <img
-            src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-            alt=""
-          />
+          <img src={myImage} alt="" />
         </div>
         <div className="paragraph">
           <Link to="contact" smooth={true}>

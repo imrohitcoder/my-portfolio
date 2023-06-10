@@ -3,6 +3,7 @@ import { GiSkills } from "react-icons/gi";
 import { VscProject } from "react-icons/vsc";
 import "./about.css";
 import { Link } from "react-scroll";
+import myPic from "./myPic.jpg";
 
 const About = () => {
   return (
@@ -13,10 +14,7 @@ const About = () => {
       </div>
       <div className="about_content">
         <div className="image">
-          <img
-            src="https://thelightcommittee.com/wp-content/uploads/men-professional-headshots-outdoors-natural-light-20230224-043806.jpg"
-            alt=""
-          />
+          <img src={myPic} alt="" />
         </div>
         <div className="all_about_me">
           <div className="my_works">
